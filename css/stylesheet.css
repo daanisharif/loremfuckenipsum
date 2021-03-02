@@ -1,0 +1,41 @@
+body {
+  color: white;
+  background-color: #01012A; }
+
+p {
+  font-size: 24px; }
+
+.trip {
+  padding: 0%;
+  background: linear-gradient(270deg, #01012a, #005679, #d1f9ff, #05d8e8, #ff296d, #ff2025);
+  background-size: 1200% 1200%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
+  border: none; }
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+.blak {
+  color: rgba(255, 255, 255, 0.5); }
+
+/*# sourceMappingURL=stylesheet.css.map */
